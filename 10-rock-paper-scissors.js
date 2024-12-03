@@ -62,8 +62,8 @@ updateScore();
 
 document.querySelector('.js-result').innerHTML = result;
 
-document.querySelector('.js-moves').innerHTML = `you <img src="images/${playerMove}-emoji.png" class="move-icon"> 
-<img src="images/${computerMove}-emoji.png" class="move-icon" computer>`
+document.querySelector('.js-moves').innerHTML = `you <img src="${playerMove}-emoji.png" class="move-icon"> 
+<img src="${computerMove}-emoji.png" class="move-icon" computer>`
 
 
 
